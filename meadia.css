@@ -1,0 +1,122 @@
+
+@media  screen and (min-width : 200px ) and (max-width : 430px ) {
+    .nimar{
+        height: 230px;
+width: 190px;
+
+         }
+         .ball1{
+            height: 200px;
+    width: 200px;
+}
+.rightimg{
+height: 230px;
+width: 200px;
+
+}
+.h1home{
+    font-size:17px;
+    padding-top: 4rem;
+}
+.h3home{
+    font-size: 17px;
+}
+.lgoh1{
+font-size:  5px ;
+
+}
+
+}
+@media  screen and (min-width : 50px ) and (max-width : 620px ) {
+    .btnlogin{
+        display: none;
+    }
+    .sect{
+        display: none;
+    }
+    #barmunu{
+        display: block;
+    }
+
+}
+@media  screen and (min-width : 50px ) and (max-width : 800px ) {
+  .logoh1{
+    font-size: 29px;
+
+  }
+  
+    .mbody{
+    height: 130vh;
+    }
+    .grids{
+        margin-top: -110px;
+        grid-template-areas: 
+        " one  two"
+        " three four "
+        "five six"
+        " seven eit "
+         " nine tin "
+         "eleven thwelve" ;}
+
+
+}
+@media  screen and (min-width : 50px ) and (max-width : 530px ) {
+.logoh1{
+    font-size: 22px;
+
+}
+    .container22{
+        height: 235vh;
+    }
+
+    .mbody{
+        height: 265vh;
+        }
+     
+    .grids{
+        height: 180vh;
+        margin-top: -250px;
+        grid-gap: 1rem;
+        grid-template-areas: 
+        " one" " two"
+        " three " "four "
+        "five" " six"
+        " seven"" eit "
+         " nine"" tin "
+         "eleven "" thwelve" ;}
+}
+.grids div{
+    margin-right: 2rem;
+}
+
+@media  screen and (min-width : 1300px ) and (max-width : 3000px) {
+    .main{
+        height: 50vh ;
+
+    }
+}
+@media  screen and (min-width : 100px ) and (max-width : 850px) {
+.shop{
+height: 160vh;
+
+}
+    .container33{
+    flex-direction:column;
+    height: 140vh;
+}
+    .left{
+    width : 100% ;
+    }
+    .right{
+    background-color: rgb(228, 228, 228);
+    width: 100%;
+
+    
+    }
+    .nimar{
+        height: 230px;
+width: 190px;
+
+         }
+
+    }

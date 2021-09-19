@@ -1,0 +1,263 @@
+body{
+    padding: 0px;
+    margin: 0px ;
+    font-weight: 700;
+    font-family: sans-serif;
+    scroll-behavior: auto;
+}
+
+header{
+height: 8vh;
+display: flex;
+justify-content: space-between;
+align-items: center;
+box-shadow: 0px -20px 20px 20px #e2e2e2;
+
+}
+.main{
+height: 100vh;
+
+}
+.mbody{
+height: 100vh;
+
+
+}
+.shop{
+
+    height: 100vh;
+    
+}
+.sect{
+display: flex;
+justify-content: space-evenly;
+list-style: none;
+color: rgb(68, 68, 68);
+width: 300px;
+margin-right: 130px;
+}
+.cont2{
+height: 80%;
+width: 80%;
+margin: 10%;
+display: flex;
+flex-direction: column;
+}
+.ball1{
+height: 300px;
+width: 300px;
+margin-left: 30px;
+/* background: rgb(230, 116, 160) ; */
+background-image: linear-gradient( to bottom ,  rgb(225 224 219) , rgb(255, 255, 255) );
+border-radius: 70%;
+margin-right: 50px;
+}
+
+.cont2 h1{
+font-size: 45px;
+padding-top: 15px;
+color: rgb(14 106 148);
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.h1 mark{
+    color: rgb(52, 216, 139);
+    background: none;
+}
+.cont2 h3{
+    font-weight: 400;
+}
+.btnlog{
+height: 25px;
+width: 100px;
+border: none;
+background: none;
+}
+.ch1{
+    color: rgb(212, 29, 72);
+}
+.logo{
+font-size: 22px;
+padding-left: 30px;
+
+
+}
+
+      #barmunu{
+        height: 30px;
+        width: 30px; 
+        margin-left: 30px; margin-top: 9px ; border-radius: 20px;  
+        display: none;
+        }
+        #circle{
+        height: 2px ; width: 18px;
+        background: rgb(0, 0, 0);
+        border-radius: 5px;
+        position: absolute;
+        top: 18px; right: 37px;
+        }
+        #circle1{
+            height: 2px ; width: 9px;
+            background: rgb(0, 0, 0);
+            border-radius: 5px;
+            position: absolute;
+            top: 23px; right: 37px;
+        }
+            #circle2{
+                height: 2px ; width: 18px;
+                background: rgb(0, 0, 0);
+                border-radius: 5px;
+                position: absolute;
+                top: 28px; right: 37px;
+            } 
+           header >  #barmunu:checked{
+            height: 40vh;
+            }
+
+
+            .container22{
+                height: 80% ;
+                width: 80%;
+                margin: 10%;
+                position: relative;
+
+               
+            }
+
+            .header2{
+                height: 10vh;
+               
+                display: flex;
+                padding-right: 25px;
+                justify-content: center;
+                align-items: center;
+         
+
+            }
+           
+
+            .grids{
+                height: 70vh;
+               position: absolute;
+               top: 60%;
+               left: 46%;
+               transform: translate( -50% , -50% );
+              
+                display: grid;
+                grid-gap: 0.5rem;
+                grid-template-rows: minmax(20px );
+                grid-template-columns: minmax(20px);
+
+                grid-template-areas: 
+                " one  two three"
+                " four five six"
+                " seven eit nine "
+                "tin eleven thwelve"
+                
+                ;
+
+            }
+
+            .grids div{
+                height: 120px; width: 190px;
+                margin-left: 60px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+            .pic1{
+                grid-area: one;
+                background: rgb(228, 243, 243);
+            }
+            /* .pic1:hover .picho   {
+              
+            } */
+          
+
+            .pic2{
+                grid-area: two;
+                background-color: rgb(243, 233, 201);
+                
+            } .pic3{
+                grid-area: three;
+                background-color: rgb(243, 243, 243);
+                
+            } .pic4{
+                grid-area: four;
+                background-color: rgb(231, 228, 220);
+                
+            } .pic5{
+                grid-area: five;
+                background-color: rgb(243, 238, 230);
+                
+            } .pic6{
+                grid-area: six;
+                background-color: rgb(61 67 86 / 20%);
+                
+            } .pic7{
+                grid-area: seven;
+                background-color: rgb(118 110 75 / 25%);
+                
+            } .pic8{
+                grid-area: eit;
+                background-color: rgb(215 224 228 / 75%);
+                
+            } .pic9{
+                grid-area: nine;
+                background-color:rgb(67 75 97 / 24%);
+                
+            } .pic10{
+                grid-area: tin;
+                background-color: rgb(36 110 145 / 41%);
+                
+            } .pic11{
+                grid-area: eleven;
+                background-color: rgb(191 164 141 / 32%);
+                
+            } .pic12{
+                grid-area: thwelve;
+                background-color:rgb(202 172 161 / 68%) ;
+                
+            }
+            .grids div img{
+                height: 100px;
+                width: 150px;
+            }
+            .footer{
+                height: 70vh;
+                background: rgb(51, 51, 51);
+                display: flex;
+            }
+            .btnlogin{
+                    height: 30px;
+                    width: 100px;
+                    border: none;
+                    border-radius: 16px;
+                    background: rgb(236, 241, 240);
+                    letter-spacing: 1.3px;
+            }
+
+            .home{
+                text-align: center;
+            }
+            .aboutus{
+                color: white;
+            }
+            .CurCompany{
+                color: white;
+
+            }
+            .h1home {
+                padding-top: 10rem ;
+            }
+            .logoh1{
+                padding-top: 15rem ;
+                color: rgb(248, 248, 248);
+                font-weight: 900;
+                font-size: 40px;
+
+            }
+            .ddd{
+                text-decoration: none;
+                color:black;
+            }

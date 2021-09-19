@@ -1,0 +1,127 @@
+.nimar{
+height: 290px;
+width: 250px;
+padding-left: 50px;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate( -50% , -50% );
+}
+.contnimar{
+height: 300px;
+width: 100%;
+display: flex; justify-content: center;
+align-items: center;
+position: relative;
+
+}
+.conttext {
+text-align: center;
+}
+.btnsee{
+height: 25px;
+width: 110px ;
+border: none;
+border-radius: 20px  ; 
+background: none;
+z-index: 1;
+margin-right: 90px;
+
+}
+.container33{
+height: 60%;
+width: 80%;
+margin: 10% ;
+background-color: rgb(250, 250, 250);
+box-shadow: 0px 7px 36px 4px rgb(230, 230, 230) ;
+display: flex;
+justify-content: space-evenly;
+}
+.right{
+background-color: rgb(248, 151, 183);
+height: 100%;
+width: 50%;
+position: relative;
+
+}
+.left{
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    }
+    .rightimg{
+height: 320px;
+width: 300px;
+position: absolute;
+top: 50%; left: 50%;
+transform: translate(-50% , -50%);
+
+    }
+    .left h1{
+font-size: 50px;
+color: rgb(52 216 139);}
+
+.left h1 mark{
+background: none;
+color: rgb(14 106 148);
+font-size: 45px;
+font-weight: 1200;
+
+
+}
+.olo{
+    margin-top: 3rem;
+
+}
+
+.left p{
+    margin-top: -1.2rem;
+}
+.out{
+    height: 30px;
+    width: 160px;
+    letter-spacing: 1px;
+    background: #f3f3f3;
+    border: none;
+    border-radius: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+
+
+}
+.munubuy{
+    height: 30px;
+    width: 160px;
+    letter-spacing: 1px;
+    border: none;
+    border: 1px solid  #f3f3f3;
+
+    border-radius: 20px;
+    margin-top: 10px;
+    font-weight: 700;
+
+}
+.home{
+width: 33%;
+height: 100%;
+text-align: center;
+
+}
+.aboutus{
+    width: 33%;
+    height: 100%;
+    text-align: center;
+
+    
+    }
+    .CurCompany{
+        width: 34%;
+        height: 100%;
+        text-align: center;
+        
+        }
+            
